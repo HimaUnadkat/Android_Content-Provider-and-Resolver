@@ -1,0 +1,93 @@
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+   >
+
+    <Button
+        android:id="@+id/btnclear"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:text="Clear Database" />
+
+    <ListView
+        android:id="@+id/list_data"
+        android:layout_width="139dp"
+        android:layout_height="237dp" >
+    </ListView>
+
+<Button
+    android:id="@+id/btnwrite"
+    android:layout_width="106dp"
+    android:layout_height="wrap_content"
+    
+    android:text="Write Contact" />
+
+<Button
+    android:id="@+id/btnshow"
+    android:layout_width="99dp"
+    android:layout_height="wrap_content"
+    android:text="Show Contact" />
+     
+     <Button
+        android:id="@+id/btnwrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="16dp"
+        android:text="Write Contact" />
+
+    <Button
+        android:id="@+id/btnshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnclear"
+        android:layout_below="@+id/btnclear"
+        
+        android:text="Show Contact" />
+
+    <Button
+        android:id="@+id/btnclear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnwrite"
+        android:layout_below="@+id/btnwrite"
+        android:text="Clear Database" />
+   
+    <ListView android:id="@+id/list_data"
+              android:layout_height="match_parent"
+              android:layout_width="match_parent"
+              android:layout_weight="1"/> 
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent" android:layout_height="fill_parent"
+ android:orientation="vertical">
+
+<Button
+    android:id="@+id/btnwrite"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Write Contacts" >
+</Button>
+
+<Button
+    android:id="@+id/btnshow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Show Contacts" >
+</Button>
+
+<Button
+    android:id="@+id/btnclear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Clear Database" >
+</Button>
+<ListView android:id="@+id/list_data"
+    android:layout_width="fill_parent" android:layout_height="0dp"
+    android:layout_weight="1.0" />
+
+
+
+</LinearLayout>
